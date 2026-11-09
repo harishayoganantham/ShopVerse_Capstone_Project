@@ -1,0 +1,1 @@
+export function route(){const raw=location.hash.replace(/^#/, '')||'/';const [path,query='']=raw.split('?');return {path,params:new URLSearchParams(query)};}export function navigate(path){location.hash=path;}export function onRouteChange(callback){window.addEventListener('hashchange',callback);}

@@ -1,0 +1,10 @@
+export const products = [
+ {id:1,name:'Everyday Ceramic Set',category:'Home',price:1499,tag:'Bestseller',description:'A calm, tactile set for everyday rituals.',image:'https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&w=900&q=80'},
+ {id:2,name:'Studio Wireless Headphones',category:'Tech',price:3299,tag:'New',description:'Immersive sound with a considered silhouette.',image:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80'},
+ {id:3,name:'Form Everyday Backpack',category:'Accessories',price:2199,tag:'Popular',description:'A versatile carry-all for days on the move.',image:'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80'},
+ {id:4,name:'Minimal Desk Lamp',category:'Home',price:1899,tag:'Editor pick',description:'Warm light for focused evenings.',image:'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80'},
+ {id:5,name:'Classic Timepiece',category:'Accessories',price:2799,tag:'Bestseller',description:'An understated detail that lasts.',image:'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80'},
+ {id:6,name:'Portable Speaker Mini',category:'Tech',price:2499,tag:'New',description:'Big, balanced sound in a compact form.',image:'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=80'},
+ {id:7,name:'Soft Knit Throw',category:'Home',price:1699,tag:'Limited',description:'A little extra comfort for slow weekends.',image:'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80'},
+ {id:8,name:'Everyday Sunglasses',category:'Accessories',price:1299,tag:'Popular',description:'A clean, easy-to-wear everyday frame.',image:'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80'}
+];

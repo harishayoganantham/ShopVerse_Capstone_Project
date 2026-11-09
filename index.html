@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ShopVerse — a modern, responsive product catalog capstone project.">
+  <meta name="theme-color" content="#101828">
+  <title>ShopVerse | Discover your next favorite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <div class="announcement">✨ Curated finds, thoughtful prices — free shipping over ₹1,999</div>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="ShopVerse home"><span class="brand-mark">S</span> shopverse<span class="brand-dot">.</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#/" class="nav-link">Home</a><a href="#/shop" class="nav-link">Shop</a><a href="#/about" class="nav-link">Our story</a>
+    </nav>
+    <div class="header-actions"><button class="icon-button" id="search-toggle" aria-label="Search products">⌕</button><a class="cart-link" href="#/cart" aria-label="Shopping cart">Bag <span id="cart-count">0</span></a><button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button></div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer"><div><a class="brand footer-brand" href="#/">shopverse<span class="brand-dot">.</span></a><p>Good things, thoughtfully found.</p></div><div class="footer-links"><a href="#/shop">Shop</a><a href="#/about">About</a><a href="mailto:hello@shopverse.example">Contact</a></div><small>© <span id="year"></span> ShopVerse. Built as a web development capstone.</small></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./assets/js/app.js"></script>
+</body></html>
